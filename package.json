@@ -13,7 +13,11 @@
   },
   "icon": "images/icon.png",
   "license": "MIT",
+<<<<<<< HEAD
   "version": "1.2.0",
+=======
+  "version": "1.0.0",
+>>>>>>> 0227b32332116f5adf786a9097f74118a9898b5a
   "engines": {
     "vscode": "^1.42.0"
   },
