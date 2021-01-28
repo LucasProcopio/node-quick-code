@@ -49,12 +49,6 @@
 
 ## Release Notes
 
-<<<<<<< HEAD
-- **Version 1.0.1**
-=======
-- **Version 1.0.0**
->>>>>>> 0227b32332116f5adf786a9097f74118a9898b5a
-
----
+- **Version 1.2.0**
 
 **⭐⭐ Enjoy! ⭐⭐**
