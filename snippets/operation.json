@@ -1,0 +1,19 @@
+{
+    "Operation skeleton": {
+      "prefix": ["@op", "@node_op"],
+      "body": [
+        "/**",
+        "* @param {Object} ctx - Depency Injection",
+        "*",
+        "*/",
+        "module.exports = ({ ${1:ctx} }) => ({",
+        "\texecute: async(data) => {",
+        "\t\t const funcService = () => ({execute: () => true });",
+        "\t\t const data = await funcService.execute(true)",
+        "\t\t return data;",
+        "\t}",
+        "});"
+      ],
+      "description": "Generates an Operation function"
+    }
+ }

@@ -1,0 +1,32 @@
+{
+    "Test Describer": {
+      "prefix": ["@td", "@node_td"],
+      "body": [
+        "describe('Describe test', () => {\n",
+        "});"
+      ],
+      "description": "Generates a test description function"
+    },"Test It": {
+        "prefix": ["@tit", "@node_tit"],
+        "body": [
+          "it('Should ', () => {",
+          "\tconst testFunc = (test) => {};",
+          "\texpect(testFunc).toHaveBeenCalledWith('test');",
+          "});"
+        ],
+      "description": "Generates test it function"
+    }, "Test skeleton": {
+        "prefix": ["@test", "@node_test"],
+        "body": [
+            "describe('Describe test', () => {",
+            "\tdescribe('#Execute', () => {",
+            "\t\tit('Should ', () => {",
+            "\t\t\tconst testFunc = (test) => {};",
+            "\t\t\texpect(testFunc).toHaveBeenCalledWith('test');",
+            "\t\t});",
+            "\t});",
+            "});"
+        ],
+        "description": "Generates a complete test skeleton"
+    }
+ }
