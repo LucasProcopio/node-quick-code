@@ -19,15 +19,6 @@
 
 > **TESTS SNIPPETS**
 
-<<<<<<< HEAD
-=======
-|    **Snippets**    |             **Description**              |
-| :----------------: | :--------------------------------------: |
-| `mdl_table, mtsql` | Add a complete moodle table sql skeleton |
-
-> **PAGE SNIPPET**
-
->>>>>>> 0227b32332116f5adf786a9097f74118a9898b5a
 |    **Snippets**     |            **Description**             |
 | :-----------------: | :------------------------------------: |
 |   `@td, @node_td`   |     Add Jest Description function      |
@@ -53,11 +44,7 @@
 | `@repo, @nde_repo"` | Add a repository function skeleton |
 
 <p align="center">
-<<<<<<< HEAD
   <img src="images/node_quick_snippets.gif" alt="node vscode snippets demo">
-=======
-  <img src="images/node_quick_snippets.gif" alt="moodle vscode snippets demo">
->>>>>>> 0227b32332116f5adf786a9097f74118a9898b5a
 </p>
 
 ## Release Notes
