@@ -3,7 +3,7 @@
 > Make your life easier as a node developer, using the main daily snippets for repetitive code, it also includes DDD infrastructure snippets ENJOY !!.
 
 <p align="center">
-  <img src="images/icon.png" alt="node quick snippets demo">
+  <img src="images/icon.jpg" alt="node quick snippets demo">
 </p>
 
 ## Features
