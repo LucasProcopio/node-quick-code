@@ -1,0 +1,12 @@
+{
+    "Joi Schema skeleton": {
+      "prefix": ["@joi", "@node_joi"],
+      "body": [
+        "const Joi = require('joi')",
+        "module.exports = () => Joi.object.keys({",
+        "\tusername: Joi.string().required(),",
+        "});"
+      ],
+      "description": "Generates a Joi Schema"
+    }
+ }

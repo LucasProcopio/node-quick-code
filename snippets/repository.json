@@ -1,0 +1,20 @@
+{
+    "Repository skeleton": {
+      "prefix": ["@repo", "@node_repo"],
+      "body": [
+        "/**",
+        "* @param {Object} ctx - Depency Injection",
+        "* @param {import('src/infra/repositories')} ctx.repository",
+        "*",
+        "*/",
+        "module.exports = ({ ${1:ctx}, ${2:repository} }) => ({",
+        "\tserviceFunc: async(data) => {",
+        "\t\t const repositoryFunc = () => ({getData: () => true });",
+        "\t\t const data = await repositoryFunc.getData(true)",
+        "\t\t return data;",
+        "\t}",
+        "});"
+      ],
+      "description": "Generates an Repository function"
+    }
+ }

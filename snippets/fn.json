@@ -1,0 +1,37 @@
+{
+    "Arrow function": {
+      "prefix": ["@afn", "@node_afn"],
+      "body": [
+        "(${1:arg}, ${2:arg2}) => {",
+        "\treturn;",
+        "};"
+      ],
+      "description": "Generates an arrow function with two arguments"
+    },"Function": {
+        "prefix": ["@fn", "@node_fn"],
+        "body": [
+          "function fnName(${1:arg}, ${2:arg2}){",
+          "\treturn;",
+          "};"
+        ],
+        "description": "Generates a function with two arguments"
+    }, "Async Arrow Function": {
+        "prefix": ["@aafn", "@node_aafn"],
+        "body": [
+          "async (${1:arg}, ${2:arg2}) => {",
+          "\tconst data = await promiseFunc();",
+          "\treturn;",
+          "};"
+        ],
+        "description": "Generates an async arrow function with two arguments"
+    },"Async Function": {
+        "prefix": ["@asyncfn", "@node_asyncfn"],
+        "body": [
+          "async function fnName(${1:arg}, ${2:arg2}){",
+          "\tconst data = await promiseFunc();",
+          "\treturn;",
+          "};"
+        ],
+        "description": "Generates an async function with two arguments"
+    }
+  }

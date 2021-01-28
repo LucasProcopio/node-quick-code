@@ -1,0 +1,47 @@
+{
+  "name": "node-quick-code",
+  "displayName": "🔥 NodeJS Quick Snippets 🔥",
+  "description": "Make your life easier as a node developer, using the main daily snippets for repetitive code, it also includes DDD infrastructure snippets ENJOY !!.",
+  "publisher": "lucaspro",
+  "author": {
+    "name": "Lucas Henrique Procopio"
+  },
+  "homepage": "https://github.com/LucasProcopio/node-quick-code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucasProcopio/node-quick-code"
+  },
+  "icon": "images/icon.png",
+  "license": "MIT",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.42.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/fn.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/test.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/operation.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/repository.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/joi.json"
+      }
+    ]
+  }
+}
